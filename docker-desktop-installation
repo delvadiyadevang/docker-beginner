@@ -7,5 +7,5 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 sudo apt install docker-ce docker-ce-cli containerd.io
 
-#Now install the .deb file which we have downloaded before and run 
+# Now install the .deb file which we have downloaded before and run 
  apt install ./<filename>
